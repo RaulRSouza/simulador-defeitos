@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulador de Defeitos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- INTRO SCREEN -->
+  <div id="screen-intro" class="screen active">
+    <div class="intro-box">
+      <h1>SIMULADOR DE DEFEITOS</h1>
+      <p class="subtitle">Programa Aluno Técnico</p>
+      <p class="intro-desc">
+        Diagnostique defeitos em computadores testando os componentes corretos.<br>
+        Você começa com <strong>10.000 pontos</strong>. Cada procedimento errado desconta pontos.
+      </p>
+      <button class="btn-primary" id="btn-start">INICIAR JOGO</button>
+    </div>
+  </div>
+
+  <!-- GAME SCREEN -->
+  <div id="screen-game" class="screen">
+    <header class="game-header">
+      <span class="header-title">SIMULADOR DE DEFEITOS</span>
+      <div class="header-info">
+        <span>Defeito <span id="defect-num">1</span>/20</span>
+        <span class="score-label">PONTOS: <strong id="score-display">10000</strong></span>
+      </div>
+    </header>
+
+    <div class="game-body">
+
+      <!-- LEFT: Symptoms panel -->
+      <aside class="panel-left">
+        <section class="info-block">
+          <h2>SINTOMAS</h2>
+          <p id="symptoms-text"></p>
+        </section>
+        <section class="info-block">
+          <h2>INFORMAÇÕES ADICIONAIS</h2>
+          <p id="additional-text"></p>
+        </section>
+        <section class="info-block computer-view">
+          <h2>COMPUTADOR</h2>
+          <div class="computer-images">
+            <div class="computer-img-btn" id="btn-monitor" title="Ver monitor">
+              <img src="Images/monitor_small.jpg" alt="Monitor">
+              <span>Monitor</span>
+            </div>
+            <div class="computer-img-btn" id="btn-cabinet" title="Ver gabinete">
+              <img src="Images/pc.jpg" alt="Gabinete">
+              <span>Gabinete</span>
+            </div>
+          </div>
+        </section>
+      </aside>
+
+      <!-- RIGHT: Components panel -->
+      <main class="panel-right">
+        <div class="tabs">
+          <button class="tab active" data-tab="hardware">HARDWARE</button>
+          <button class="tab" data-tab="software">SOFTWARE</button>
+        </div>
+        <div id="components-hardware" class="components-grid tab-content active"></div>
+        <div id="components-software" class="components-grid tab-content"></div>
+      </main>
+
+    </div>
+  </div>
+
+  <!-- END SCREEN -->
+  <div id="screen-end" class="screen">
+    <div class="end-box">
+      <h1>FIM DO JOGO</h1>
+      <p class="end-label">VOCÊ MARCOU</p>
+      <p class="final-score" id="final-score">10000</p>
+      <p class="end-label">PONTOS</p>
+      <p class="end-message" id="end-message"></p>
+      <button class="btn-primary" id="btn-restart">JOGAR NOVAMENTE</button>
+    </div>
+  </div>
+
+  <!-- MODAL: Component view / feedback -->
+  <div id="modal-overlay" class="modal-overlay hidden">
+    <div class="modal">
+      <button class="modal-close" id="modal-close">✕</button>
+      <div id="modal-content"></div>
+    </div>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>
