@@ -185,22 +185,22 @@ const GAME_DATA = {
         },
         {
           "proc_id": "H9",
-          "proc_label": "Disco Rídigo",
-          "proc_text": "Susbstituir o Disco Rígido por outro.",
+          "proc_label": "Disco Rígido",
+          "proc_text": "Substituir o Disco Rígido por outro.",
           "proc_feedback": "Realmente o Disco Rígido poderia estar queimado, impossibilitando o computador de ligar, mas geralmente, quando isso acontece, a ventoinha da fonte não para de girar e os LEDs do gabinete e da placa-mãe acendem, o que não é o caso.",
           "proc_loss_score": 0
         },
         {
           "proc_id": "H10",
           "proc_label": "Drive de CD-Rom",
-          "proc_text": "Susbstituir o Drive de CD-ROM por outro.",
+          "proc_text": "Substituir o Drive de CD-ROM por outro.",
           "proc_feedback": "Realmente o Drive de CD-ROM poderia estar queimado, impossibilitando o computador de ligar, mas geralmente, quando isso acontece, a ventoinha da fonte não para de girar e os LEDs do gabinete e da placa-mãe acendem, o que não é o caso.",
           "proc_loss_score": 0
         },
         {
           "proc_id": "H11",
           "proc_label": "Drive de Disquete",
-          "proc_text": "Susbstituir o Drive de Disquete por outro.",
+          "proc_text": "Substituir o Drive de Disquete por outro.",
           "proc_feedback": "Realmente o Drive de disquete poderia estar queimado, impossibilitando o computador de ligar, mas geralmente, quando isso acontece, a ventoinha da fonte não para de girar e os LEDs do gabinete e da placa-mãe acendem, o que não é o caso.",
           "proc_loss_score": 0
         },
@@ -308,22 +308,22 @@ const GAME_DATA = {
         },
         {
           "proc_id": "H9",
-          "proc_label": "Disco Rídigo",
-          "proc_text": "Susbstituir o Disco Rígido por outro.",
+          "proc_label": "Disco Rígido",
+          "proc_text": "Substituir o Disco Rígido por outro.",
           "proc_feedback": "É  impossível um problema no HD causar defeito na geração de imagens, pois sua função não está relacionada diretamente à geração de imagens.",
           "proc_loss_score": 20
         },
         {
           "proc_id": "H10",
           "proc_label": "Drive de CD-Rom",
-          "proc_text": "Susbstituir o Drive de CD-ROM por outro.",
+          "proc_text": "Substituir o Drive de CD-ROM por outro.",
           "proc_feedback": "É  impossível um problema no drive de CD-ROM causar defeito na geração de imagens, pois sua função não está relacionada diretamente à geração de imagens.",
           "proc_loss_score": 20
         },
         {
           "proc_id": "H11",
           "proc_label": "Drive de Disquete",
-          "proc_text": "Susbstituir o Drive de Disquete por outro.",
+          "proc_text": "Substituir o Drive de Disquete por outro.",
           "proc_feedback": "É  impossível um problema no drive de disquete causar defeito na geração de imagens, pois sua função não está relacionada diretamente à geração de imagens.",
           "proc_loss_score": 20
         },
@@ -431,22 +431,22 @@ const GAME_DATA = {
         },
         {
           "proc_id": "H9",
-          "proc_label": "Disco Rídigo",
-          "proc_text": "Susbstituir o Disco Rígido por outro.",
+          "proc_label": "Disco Rígido",
+          "proc_text": "Substituir o Disco Rígido por outro.",
           "proc_feedback": "Realmente o HD poderia estar com algum problema no setor 0 (setor de boot) ocasionando a falha no carregamento do SO. Mas neste caso, o problema não está no HD. Além disso, existe um outros procedimento que você deve tentar antes de trocar o HD.",
           "proc_loss_score": 0
         },
         {
           "proc_id": "H10",
           "proc_label": "Drive de CD-Rom",
-          "proc_text": "Susbstituir o Drive de CD-ROM por outro.",
+          "proc_text": "Substituir o Drive de CD-ROM por outro.",
           "proc_feedback": "É quase impossível um problema no drive de CD-ROM causar defeito no carregamento do SO.",
           "proc_loss_score": 30
         },
         {
           "proc_id": "H11",
           "proc_label": "Drive de Disquete",
-          "proc_text": "Susbstituir o Drive de Disquete por outro.",
+          "proc_text": "Substituir o Drive de Disquete por outro.",
           "proc_feedback": "É quase impossível um problema no drive de disquete causar defeito no carregamento do SO.",
           "proc_loss_score": 30
         },
@@ -554,22 +554,22 @@ const GAME_DATA = {
         },
         {
           "proc_id": "H9",
-          "proc_label": "Disco Rídigo",
-          "proc_text": "Susbstituir o Disco Rígido por outro.",
+          "proc_label": "Disco Rígido",
+          "proc_text": "Substituir o Disco Rígido por outro.",
           "proc_feedback": "Parabéns! Você descobriu o defeito. Um HD com setores defeituosos pode corromper arquivos e ocasionar travamentos curtos, ou até travamentos em que é preciso desligar o computador e ligar novamente. Também é muito comum HDs com defeito provocarem um barulho forte, como se fossem estalos dentro do computador.",
           "proc_loss_score": 0
         },
         {
           "proc_id": "H10",
           "proc_label": "Drive de CD-Rom",
-          "proc_text": "Susbstituir o Drive de CD-ROM por outro.",
+          "proc_text": "Substituir o Drive de CD-ROM por outro.",
           "proc_feedback": "É quase impossível um defeito no drive de CD-ROM corromper arquivos no HD e provocar travamentos no computador. Porém, alguns drives de CD-ROM com problemas podem causar barulhos fortes e estalos.",
           "proc_loss_score": 10
         },
         {
           "proc_id": "H11",
           "proc_label": "Drive de Disquete",
-          "proc_text": "Susbstituir o Drive de Disquete por outro.",
+          "proc_text": "Substituir o Drive de Disquete por outro.",
           "proc_feedback": "É quase impossível um defeito no drive de disquete corromper arquivos no HD e provocar travamentos no computador. Porém, alguns drives de disquete com problemas podem causar barulhos fortes e estalos.",
           "proc_loss_score": 10
         },
@@ -677,22 +677,22 @@ const GAME_DATA = {
         },
         {
           "proc_id": "H9",
-          "proc_label": "Disco Rídigo",
-          "proc_text": "Susbstituir o Disco Rígido por outro.",
+          "proc_label": "Disco Rígido",
+          "proc_text": "Substituir o Disco Rígido por outro.",
           "proc_feedback": "É  impossível um defeito no HD causar problemas de escrita/leitura em disquetes.",
           "proc_loss_score": 20
         },
         {
           "proc_id": "H10",
           "proc_label": "Drive de CD-Rom",
-          "proc_text": "Susbstituir o Drive de CD-ROM por outro.",
+          "proc_text": "Substituir o Drive de CD-ROM por outro.",
           "proc_feedback": "É impossível um problema no drive de CD-ROM  causar problemas de escrita/leitura em disquetes.",
           "proc_loss_score": 20
         },
         {
           "proc_id": "H11",
           "proc_label": "Drive de Disquete",
-          "proc_text": "Susbstituir o Drive de Disquete por outro.",
+          "proc_text": "Substituir o Drive de Disquete por outro.",
           "proc_feedback": "Parabéns! Você descbriu o defeito. Um drive de disquete com defeito ou excesso de sujeira na cabeça de leitura causa problemas de escrita/leitura em disquetes.",
           "proc_loss_score": 0
         },
@@ -800,22 +800,22 @@ const GAME_DATA = {
         },
         {
           "proc_id": "H9",
-          "proc_label": "Disco Rídigo",
-          "proc_text": "Susbstituir o Disco Rígido por outro.",
+          "proc_label": "Disco Rígido",
+          "proc_text": "Substituir o Disco Rígido por outro.",
           "proc_feedback": "É  impossível um defeito no HD causar problemas de leitura em CD-ROMs.",
           "proc_loss_score": 20
         },
         {
           "proc_id": "H10",
           "proc_label": "Drive de CD-Rom",
-          "proc_text": "Susbstituir o Drive de CD-ROM por outro.",
+          "proc_text": "Substituir o Drive de CD-ROM por outro.",
           "proc_feedback": "Parabéns! Você descobriu o defeito. Um drive de CD-ROM com defeito ou excesso de sujeira na cabeça de leitura causa problemas de leitura em CD-ROMs.",
           "proc_loss_score": 0
         },
         {
           "proc_id": "H11",
           "proc_label": "Drive de Disquete",
-          "proc_text": "Susbstituir o Drive de Disquete por outro.",
+          "proc_text": "Substituir o Drive de Disquete por outro.",
           "proc_feedback": "É impossível um defeito no drive de disquete causar problemas de leitura em CD-ROMs.",
           "proc_loss_score": 20
         },
@@ -923,22 +923,22 @@ const GAME_DATA = {
         },
         {
           "proc_id": "H9",
-          "proc_label": "Disco Rídigo",
-          "proc_text": "Susbstituir o Disco Rígido por outro.",
+          "proc_label": "Disco Rígido",
+          "proc_text": "Substituir o Disco Rígido por outro.",
           "proc_feedback": "Não é muito comum um problema no HD causar travamentos e reiniciar o computador, mas pode acontecer. Neste caso, você trocou o HD, mas o problema continua.",
           "proc_loss_score": 10
         },
         {
           "proc_id": "H10",
           "proc_label": "Drive de CD-Rom",
-          "proc_text": "Susbstituir o Drive de CD-ROM por outro.",
+          "proc_text": "Substituir o Drive de CD-ROM por outro.",
           "proc_feedback": "É quase impossível um problema no drive de CD-ROM causar travamentos e reiniciar o computador, principalmente se esses travamentos ocorrem quando você não está acessando o drive, como neste caso.",
           "proc_loss_score": 20
         },
         {
           "proc_id": "H11",
           "proc_label": "Drive de Disquete",
-          "proc_text": "Susbstituir o Drive de Disquete por outro.",
+          "proc_text": "Substituir o Drive de Disquete por outro.",
           "proc_feedback": "É quase impossível um problema no drive de disquetes causar travamentos e reiniciar o computador, principalmente se esses travamentos ocorrem quando você não está acessando o drive, como neste caso.",
           "proc_loss_score": 20
         },
@@ -1046,22 +1046,22 @@ const GAME_DATA = {
         },
         {
           "proc_id": "H9",
-          "proc_label": "Disco Rídigo",
-          "proc_text": "Susbstituir o Disco Rígido por outro.",
+          "proc_label": "Disco Rígido",
+          "proc_text": "Substituir o Disco Rígido por outro.",
           "proc_feedback": "Não é muito comum um problema no HD causar travamentos e reiniciar o computador, mas pode acontecer. Neste caso, você trocou o HD, mas o problema continua.",
           "proc_loss_score": 10
         },
         {
           "proc_id": "H10",
           "proc_label": "Drive de CD-Rom",
-          "proc_text": "Susbstituir o Drive de CD-ROM por outro.",
+          "proc_text": "Substituir o Drive de CD-ROM por outro.",
           "proc_feedback": "É quase impossível um problema no drive de CD-ROM causar travamentos e reiniciar o computador, principalmente se esses travamentos ocorrem quando você não está acessando o drive, como neste caso.",
           "proc_loss_score": 20
         },
         {
           "proc_id": "H11",
           "proc_label": "Drive de Disquete",
-          "proc_text": "Susbstituir o Drive de Disquete por outro.",
+          "proc_text": "Substituir o Drive de Disquete por outro.",
           "proc_feedback": "É quase impossível um problema no drive de disquetes causar travamentos e reiniciar o computador, principalmente se esses travamentos ocorrem quando você não está acessando o drive, como neste caso.",
           "proc_loss_score": 20
         },
@@ -1169,22 +1169,22 @@ const GAME_DATA = {
         },
         {
           "proc_id": "H9",
-          "proc_label": "Disco Rídigo",
-          "proc_text": "Susbstituir o Disco Rígido por outro.",
+          "proc_label": "Disco Rígido",
+          "proc_text": "Substituir o Disco Rígido por outro.",
           "proc_feedback": "Parabéns! Você descobriu o defeito. Um HD com um grande dano na superfície do seu disco, no motor ou na cabeça de leitura, ou ainda com a placa de circuitos queimada geralmente ocasiona essa mensagem de erro no autoteste, logo que o computador é ligado.",
           "proc_loss_score": 0
         },
         {
           "proc_id": "H10",
           "proc_label": "Drive de CD-Rom",
-          "proc_text": "Susbstituir o Drive de CD-ROM por outro.",
+          "proc_text": "Substituir o Drive de CD-ROM por outro.",
           "proc_feedback": "É quase impossível um defeito no drive de CD-ROM provocar falha de acesso ao HD. Mas se os dois estiverem conectados no mesmo cabo e o CD-ROM estiver queimado, pode até ocorrer essa falha.",
           "proc_loss_score": 20
         },
         {
           "proc_id": "H11",
           "proc_label": "Drive de Disquete",
-          "proc_text": "Susbstituir o Drive de Disquete por outro.",
+          "proc_text": "Substituir o Drive de Disquete por outro.",
           "proc_feedback": "É impossível um defeito no drive de disquete provocar falha de acesso ao HD.",
           "proc_loss_score": 30
         },
@@ -1292,22 +1292,22 @@ const GAME_DATA = {
         },
         {
           "proc_id": "H9",
-          "proc_label": "Disco Rídigo",
-          "proc_text": "Susbstituir o Disco Rígido por outro.",
+          "proc_label": "Disco Rígido",
+          "proc_text": "Substituir o Disco Rígido por outro.",
           "proc_feedback": "Boa tentativa. Um HD com um grande dano na superfície do seu disco, no motor ou na cabeça de leitura, ou ainda com a placa de circuitos queimada geralmente ocasiona essa mensagem de erro no autoteste, logo que o computador é ligado. Mas infelizmente, esse não é o problema.",
           "proc_loss_score": 0
         },
         {
           "proc_id": "H10",
           "proc_label": "Drive de CD-Rom",
-          "proc_text": "Susbstituir o Drive de CD-ROM por outro.",
+          "proc_text": "Substituir o Drive de CD-ROM por outro.",
           "proc_feedback": "É quase impossível um defeito no drive de CD-ROM provocar falha de acesso ao HD. Mas se os dois estiverem conectados no mesmo cabo e o CD-ROM estiver queimado, pode até ocorrer essa falha.",
           "proc_loss_score": 20
         },
         {
           "proc_id": "H11",
           "proc_label": "Drive de Disquete",
-          "proc_text": "Susbstituir o Drive de Disquete por outro.",
+          "proc_text": "Substituir o Drive de Disquete por outro.",
           "proc_feedback": "É impossível um defeito no drive de disquete provocar falha de acesso ao HD.",
           "proc_loss_score": 30
         },
@@ -1415,22 +1415,22 @@ const GAME_DATA = {
         },
         {
           "proc_id": "H9",
-          "proc_label": "Disco Rídigo",
-          "proc_text": "Susbstituir o Disco Rígido por outro.",
+          "proc_label": "Disco Rígido",
+          "proc_text": "Substituir o Disco Rígido por outro.",
           "proc_feedback": "Não é muito comum um problema no HD causar travamentos e reiniciar o computador, mas pode acontecer. Neste caso, você trocou o HD, mas o problema continua.",
           "proc_loss_score": 10
         },
         {
           "proc_id": "H10",
           "proc_label": "Drive de CD-Rom",
-          "proc_text": "Susbstituir o Drive de CD-ROM por outro.",
+          "proc_text": "Substituir o Drive de CD-ROM por outro.",
           "proc_feedback": "É quase impossível um problema no drive de CD-ROM causar travamentos e reiniciar o computador, principalmente se esses travamentos ocorrem quando você não está acessando o drive, como neste caso.",
           "proc_loss_score": 20
         },
         {
           "proc_id": "H11",
           "proc_label": "Drive de Disquete",
-          "proc_text": "Susbstituir o Drive de Disquete por outro.",
+          "proc_text": "Substituir o Drive de Disquete por outro.",
           "proc_feedback": "É quase impossível um problema no drive de disquetes causar travamentos e reiniciar o computador, principalmente se esses travamentos ocorrem quando você não está acessando o drive, como neste caso.",
           "proc_loss_score": 20
         },
@@ -1538,22 +1538,22 @@ const GAME_DATA = {
         },
         {
           "proc_id": "H9",
-          "proc_label": "Disco Rídigo",
-          "proc_text": "Susbstituir o Disco Rígido por outro.",
+          "proc_label": "Disco Rígido",
+          "proc_text": "Substituir o Disco Rígido por outro.",
           "proc_feedback": "Boa tentativa. Um HD defeituoso pode deixar o computador lento, causar travamentos e problemas com arquivos. Mas o computador também está lento para realizar tarefas que não dependem do HD, como digitação de texto e acessar a Internet.",
           "proc_loss_score": 10
         },
         {
           "proc_id": "H10",
           "proc_label": "Drive de CD-Rom",
-          "proc_text": "Susbstituir o Drive de CD-ROM por outro.",
+          "proc_text": "Substituir o Drive de CD-ROM por outro.",
           "proc_feedback": "É  impossível um problema no drive de CD-ROM causar travamentos, deixar o computador lento e apagar arquivos do usuário que estão no HD.",
           "proc_loss_score": 20
         },
         {
           "proc_id": "H11",
           "proc_label": "Drive de Disquete",
-          "proc_text": "Susbstituir o Drive de Disquete por outro.",
+          "proc_text": "Substituir o Drive de Disquete por outro.",
           "proc_feedback": "É  impossível um problema no drive de disquete causar travamentos, deixar o computador lento e apagar arquivos do usuário que estão no HD.",
           "proc_loss_score": 20
         },
@@ -1661,22 +1661,22 @@ const GAME_DATA = {
         },
         {
           "proc_id": "H9",
-          "proc_label": "Disco Rídigo",
-          "proc_text": "Susbstituir o Disco Rígido por outro.",
+          "proc_label": "Disco Rígido",
+          "proc_text": "Substituir o Disco Rígido por outro.",
           "proc_feedback": "É  impossível um problema no HD causar defeito na geração de imagens, pois sua função não está relacionada diretamente à geração de imagens.",
           "proc_loss_score": 30
         },
         {
           "proc_id": "H10",
           "proc_label": "Drive de CD-Rom",
-          "proc_text": "Susbstituir o Drive de CD-ROM por outro.",
+          "proc_text": "Substituir o Drive de CD-ROM por outro.",
           "proc_feedback": "É  impossível um problema no drive de CD-ROM causar defeito na geração de imagens, pois sua função não está relacionada diretamente à geração de imagens.",
           "proc_loss_score": 30
         },
         {
           "proc_id": "H11",
           "proc_label": "Drive de Disquete",
-          "proc_text": "Susbstituir o Drive de Disquete por outro.",
+          "proc_text": "Substituir o Drive de Disquete por outro.",
           "proc_feedback": "É  impossível um problema no drive de disquete causar defeito na geração de imagens, pois sua função não está relacionada diretamente à geração de imagens.",
           "proc_loss_score": 30
         },
@@ -1784,22 +1784,22 @@ const GAME_DATA = {
         },
         {
           "proc_id": "H9",
-          "proc_label": "Disco Rídigo",
-          "proc_text": "Susbstituir o Disco Rígido por outro.",
+          "proc_label": "Disco Rígido",
+          "proc_text": "Substituir o Disco Rígido por outro.",
           "proc_feedback": "Não é muito comum um problema no HD causar travamentos e reiniciar o computador, mas pode acontecer. Neste caso, você trocou o HD, mas o problema continua.",
           "proc_loss_score": 10
         },
         {
           "proc_id": "H10",
           "proc_label": "Drive de CD-Rom",
-          "proc_text": "Susbstituir o Drive de CD-ROM por outro.",
+          "proc_text": "Substituir o Drive de CD-ROM por outro.",
           "proc_feedback": "É quase impossível um problema no drive de CD-ROM causar travamentos e reiniciar o computador, principalmente se esses travamentos ocorrem quando você não está acessando o drive, como neste caso.",
           "proc_loss_score": 20
         },
         {
           "proc_id": "H11",
           "proc_label": "Drive de Disquete",
-          "proc_text": "Susbstituir o Drive de Disquete por outro.",
+          "proc_text": "Substituir o Drive de Disquete por outro.",
           "proc_feedback": "É quase impossível um problema no drive de disquetes causar travamentos e reiniciar o computador, principalmente se esses travamentos ocorrem quando você não está acessando o drive, como neste caso.",
           "proc_loss_score": 20
         },
@@ -1907,22 +1907,22 @@ const GAME_DATA = {
         },
         {
           "proc_id": "H9",
-          "proc_label": "Disco Rídigo",
-          "proc_text": "Susbstituir o Disco Rígido por outro.",
+          "proc_label": "Disco Rígido",
+          "proc_text": "Substituir o Disco Rígido por outro.",
           "proc_feedback": "É impossível um HD defeituoso causar problemas de definição pobre de tela.",
           "proc_loss_score": 30
         },
         {
           "proc_id": "H10",
           "proc_label": "Drive de CD-Rom",
-          "proc_text": "Susbstituir o Drive de CD-ROM por outro.",
+          "proc_text": "Substituir o Drive de CD-ROM por outro.",
           "proc_feedback": "É impossível um drive de CD-ROM defeituoso causar problemas de definição pobre de tela.",
           "proc_loss_score": 30
         },
         {
           "proc_id": "H11",
           "proc_label": "Drive de Disquete",
-          "proc_text": "Susbstituir o Drive de Disquete por outro.",
+          "proc_text": "Substituir o Drive de Disquete por outro.",
           "proc_feedback": "É impossível um drive de disquete defeituoso causar problemas de definição pobre de tela.",
           "proc_loss_score": 30
         },
@@ -2030,22 +2030,22 @@ const GAME_DATA = {
         },
         {
           "proc_id": "H9",
-          "proc_label": "Disco Rídigo",
-          "proc_text": "Susbstituir o Disco Rígido por outro.",
+          "proc_label": "Disco Rígido",
+          "proc_text": "Substituir o Disco Rígido por outro.",
           "proc_feedback": "Não é muito comum um problema no HD causar travamentos e reiniciar o computador, mas pode acontecer. Neste caso, você trocou o HD, mas o problema continua.",
           "proc_loss_score": 10
         },
         {
           "proc_id": "H10",
           "proc_label": "Drive de CD-Rom",
-          "proc_text": "Susbstituir o Drive de CD-ROM por outro.",
+          "proc_text": "Substituir o Drive de CD-ROM por outro.",
           "proc_feedback": "É quase impossível um problema no drive de CD-ROM causar travamentos e reiniciar o computador, principalmente se esses travamentos ocorrem quando você não está acessando o drive, como neste caso.",
           "proc_loss_score": 20
         },
         {
           "proc_id": "H11",
           "proc_label": "Drive de Disquete",
-          "proc_text": "Susbstituir o Drive de Disquete por outro.",
+          "proc_text": "Substituir o Drive de Disquete por outro.",
           "proc_feedback": "É quase impossível um problema no drive de disquetes causar travamentos e reiniciar o computador, principalmente se esses travamentos ocorrem quando você não está acessando o drive, como neste caso.",
           "proc_loss_score": 20
         },
@@ -2153,22 +2153,22 @@ const GAME_DATA = {
         },
         {
           "proc_id": "H9",
-          "proc_label": "Disco Rídigo",
-          "proc_text": "Susbstituir o Disco Rígido por outro.",
+          "proc_label": "Disco Rígido",
+          "proc_text": "Substituir o Disco Rígido por outro.",
           "proc_feedback": "É impossível um defeito no HD causar problemas de detecção no drive de disquete.",
           "proc_loss_score": 30
         },
         {
           "proc_id": "H10",
           "proc_label": "Drive de CD-Rom",
-          "proc_text": "Susbstituir o Drive de CD-ROM por outro.",
+          "proc_text": "Substituir o Drive de CD-ROM por outro.",
           "proc_feedback": "É impossível um defeito no drive de CD-ROM causar problemas de detecção no drive de disquete.",
           "proc_loss_score": 30
         },
         {
           "proc_id": "H11",
           "proc_label": "Drive de Disquete",
-          "proc_text": "Susbstituir o Drive de Disquete por outro.",
+          "proc_text": "Substituir o Drive de Disquete por outro.",
           "proc_feedback": "Boa tentativa! Um defeito no drive de disquete poderia fazer com que ele não fosse detectado pelo SO. Mas você trocou o drive e o problema continua.",
           "proc_loss_score": 0
         },
@@ -2276,22 +2276,22 @@ const GAME_DATA = {
         },
         {
           "proc_id": "H9",
-          "proc_label": "Disco Rídigo",
-          "proc_text": "Susbstituir o Disco Rígido por outro.",
+          "proc_label": "Disco Rígido",
+          "proc_text": "Substituir o Disco Rígido por outro.",
           "proc_feedback": "Um defeito no HD pode travar o computador e evitar que ele ligue. Mas quando o computador não liga devido a um defeito no HD, não apresenta nenhum sinal sonoro.",
           "proc_loss_score": 10
         },
         {
           "proc_id": "H10",
           "proc_label": "Drive de CD-Rom",
-          "proc_text": "Susbstituir o Drive de CD-ROM por outro.",
+          "proc_text": "Substituir o Drive de CD-ROM por outro.",
           "proc_feedback": "Um defeito no drive de CD-ROM pode  até travar o computador e evitar que ele ligue. Mas quando o computador não liga devido a um defeito no drive não apresenta nenhum sinal sonoro.",
           "proc_loss_score": 20
         },
         {
           "proc_id": "H11",
           "proc_label": "Drive de Disquete",
-          "proc_text": "Susbstituir o Drive de Disquete por outro.",
+          "proc_text": "Substituir o Drive de Disquete por outro.",
           "proc_feedback": "Um defeito no drive de disquete pode até travar o computador e evitar que ele ligue. Mas quando o computador não liga devido a um defeito no dirve não apresenta nenhum sinal sonoro.",
           "proc_loss_score": 20
         },
@@ -2399,22 +2399,22 @@ const GAME_DATA = {
         },
         {
           "proc_id": "H9",
-          "proc_label": "Disco Rídigo",
-          "proc_text": "Susbstituir o Disco Rígido por outro.",
+          "proc_label": "Disco Rígido",
+          "proc_text": "Substituir o Disco Rígido por outro.",
           "proc_feedback": "Um defeito no HD pode travar o computador e evitar que ele ligue. Mas quando o computador não liga devido a um defeito no HD, não apresenta nenhum sinal sonoro.",
           "proc_loss_score": 10
         },
         {
           "proc_id": "H10",
           "proc_label": "Drive de CD-Rom",
-          "proc_text": "Susbstituir o Drive de CD-ROM por outro.",
+          "proc_text": "Substituir o Drive de CD-ROM por outro.",
           "proc_feedback": "Um defeito no drive de CD-ROM pode  até travar o computador e evitar que ele ligue. Mas quando o computador não liga devido a um defeito no drive não apresenta nenhum sinal sonoro.",
           "proc_loss_score": 20
         },
         {
           "proc_id": "H11",
           "proc_label": "Drive de Disquete",
-          "proc_text": "Susbstituir o Drive de Disquete por outro.",
+          "proc_text": "Substituir o Drive de Disquete por outro.",
           "proc_feedback": "Um defeito no drive de disquete pode até travar o computador e evitar que ele ligue. Mas quando o computador não liga devido a um defeito no dirve não apresenta nenhum sinal sonoro.",
           "proc_loss_score": 20
         },
@@ -2522,22 +2522,22 @@ const GAME_DATA = {
         },
         {
           "proc_id": "H9",
-          "proc_label": "Disco Rídigo",
-          "proc_text": "Susbstituir o Disco Rígido por outro.",
+          "proc_label": "Disco Rígido",
+          "proc_text": "Substituir o Disco Rígido por outro.",
           "proc_feedback": "Não é muito comum um problema no HD causar travamentos e reiniciar o computador, mas pode acontecer. Neste caso, você trocou o HD, mas o problema continua.",
           "proc_loss_score": 10
         },
         {
           "proc_id": "H10",
           "proc_label": "Drive de CD-Rom",
-          "proc_text": "Susbstituir o Drive de CD-ROM por outro.",
+          "proc_text": "Substituir o Drive de CD-ROM por outro.",
           "proc_feedback": "É quase impossível um problema no drive de CD-ROM causar travamentos e reiniciar o computador, principalmente se esses travamentos ocorrem quando você não está acessando o drive, como neste caso.",
           "proc_loss_score": 20
         },
         {
           "proc_id": "H11",
           "proc_label": "Drive de Disquete",
-          "proc_text": "Susbstituir o Drive de Disquete por outro.",
+          "proc_text": "Substituir o Drive de Disquete por outro.",
           "proc_feedback": "É quase impossível um problema no drive de disquetes causar travamentos e reiniciar o computador, principalmente se esses travamentos ocorrem quando você não está acessando o drive, como neste caso.",
           "proc_loss_score": 20
         },

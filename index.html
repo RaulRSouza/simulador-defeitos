@@ -8,7 +8,7 @@
 </head>
 <body>
 
-  <!-- INTRO SCREEN -->
+  <!-- INTRO -->
   <div id="screen-intro" class="screen active">
     <div class="intro-box">
       <h1>SIMULADOR DE DEFEITOS</h1>
@@ -21,61 +21,68 @@
     </div>
   </div>
 
-  <!-- GAME SCREEN -->
+  <!-- GAME -->
   <div id="screen-game" class="screen">
-    <header class="game-header">
-      <span class="header-title">SIMULADOR DE DEFEITOS</span>
-      <div class="header-info">
-        <span>Defeito <span id="defect-num">1</span>/20</span>
-        <span class="score-label">PONTOS: <strong id="score-display">10000</strong></span>
+
+    <!-- TOP BAR -->
+    <div class="top-bar">
+      <div class="top-section hw-section">
+        <div class="section-label">HARDWARE</div>
+        <div class="parts-row" id="hw-parts"></div>
       </div>
-    </header>
-
-    <div class="game-body">
-
-      <!-- LEFT: Symptoms panel -->
-      <aside class="panel-left">
-        <section class="info-block">
-          <h2>SINTOMAS</h2>
-          <p id="symptoms-text"></p>
-        </section>
-        <section class="info-block">
-          <h2>INFORMAÇÕES ADICIONAIS</h2>
-          <p id="additional-text"></p>
-        </section>
-        <section class="info-block computer-view">
-          <h2>COMPUTADOR</h2>
-          <div class="computer-images">
-            <div class="computer-img-btn" id="btn-monitor" title="Ver monitor">
-              <img src="Images/monitor_small.jpg" alt="Monitor">
-              <span>Monitor</span>
-            </div>
-            <div class="computer-img-btn" id="btn-cabinet" title="Ver gabinete">
-              <img src="Images/pc.jpg" alt="Gabinete">
-              <span>Gabinete</span>
-            </div>
-          </div>
-        </section>
-      </aside>
-
-      <!-- RIGHT: Components panel -->
-      <main class="panel-right">
-        <div class="tabs">
-          <button class="tab active" data-tab="hardware">HARDWARE</button>
-          <button class="tab" data-tab="software">SOFTWARE</button>
+      <div class="top-center">
+        <div class="score-area">
+          <span class="score-title">PONTOS</span>
+          <span class="score-val" id="score-display">10000</span>
         </div>
-        <div id="components-hardware" class="components-grid tab-content active"></div>
-        <div id="components-software" class="components-grid tab-content"></div>
-      </main>
+        <button class="power-btn" id="power-icon" title="Ligar/Desligar">⏻</button>
+        <div class="defect-count">Defeito <span id="defect-num">1</span>/20</div>
+      </div>
+      <div class="top-section sw-section">
+        <div class="section-label">SOFTWARE</div>
+        <div class="parts-row" id="sw-parts"></div>
+      </div>
+    </div>
+
+    <!-- MAIN AREA -->
+    <div class="main-area">
+
+      <!-- LEFT: Computer visual -->
+      <div class="left-panel">
+        <div class="computer-view">
+          <div class="monitor-wrap clickable" id="btn-monitor" title="Clique para ver o monitor">
+            <img id="monitor-thumb" src="Images/monitor.jpg" alt="Monitor">
+          </div>
+          <div class="cabinet-wrap clickable" id="btn-cabinet" title="Clique para ver o gabinete">
+            <img src="Images/pc.jpg" alt="Gabinete">
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT: Info panels -->
+      <div class="right-panel">
+        <div class="info-panel sintomas-panel">
+          <div class="panel-title">SINTOMAS</div>
+          <div class="panel-body" id="symptoms-text"></div>
+        </div>
+        <div class="info-panel problema-panel">
+          <div class="panel-title">PROBLEMA APARENTE</div>
+          <div class="panel-body" id="problema-text"></div>
+        </div>
+        <div class="info-panel info-panel-green">
+          <div class="panel-title">INFORMAÇÕES ADICIONAIS</div>
+          <div class="panel-body" id="additional-text"></div>
+        </div>
+      </div>
 
     </div>
   </div>
 
-  <!-- END SCREEN -->
+  <!-- END -->
   <div id="screen-end" class="screen">
     <div class="end-box">
       <h1>FIM DO JOGO</h1>
-      <p class="end-label">VOCÊ MARCOU</p>
+      <p class="end-label">O JOGO TERMINOU, VOCÊ MARCOU</p>
       <p class="final-score" id="final-score">10000</p>
       <p class="end-label">PONTOS</p>
       <p class="end-message" id="end-message"></p>
@@ -83,7 +90,7 @@
     </div>
   </div>
 
-  <!-- MODAL: Component view / feedback -->
+  <!-- MODAL -->
   <div id="modal-overlay" class="modal-overlay hidden">
     <div class="modal">
       <button class="modal-close" id="modal-close">✕</button>
